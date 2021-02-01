@@ -46,6 +46,8 @@ NodeLocal DNSCache在集群的上运行一个dnsCache daemonset来提高clusterD
 - 调整cluster-addon安装方式
 - 修复 calico 网络 backend 设置为 vxlan none 时，calico 部署失败 #959
 - 调整默认nodePort范围为30000-32767
+- 修复 calico backend config #973
+- 修复 restore an etcd cluster #973
 
 ### 工具脚本
 
